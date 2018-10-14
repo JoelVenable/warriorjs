@@ -84,8 +84,6 @@ class Player {
     } else if (!isTakingDamage && health < 17) {
       action.do = 'rest';
     }
-
-
     return action;
   }
 
